@@ -81,7 +81,7 @@ public class Maquina {
 				if (valor1 == 0) {
 					System.exit(0);
 				}
-			} while ((valor1 < 0 || valor1 > 6) && (valor1 != 64 && valor1 != 411));
+			} while ((valor1 < 0 || valor1 > 6) && (valor1 != 64 && valor1 != 82));
 
 			if (valor1 == 64) {
 				Lista.add(new Cenoura("CENOURA", 0));
@@ -93,7 +93,7 @@ public class Maquina {
 				continue;
 			}
 			
-			if (valor1 == 411) {
+			if (valor1 == 82) {
 				Lista.add(new Bolo("BOLO DE MURANGO", 0));
 				final ImageIcon icon = new ImageIcon(
 						"C:\\Users\\User\\eclipse-workspace\\Projeto\\src\\Pacote\\Image\\murango.jpg");
